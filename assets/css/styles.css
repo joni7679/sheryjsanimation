@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "NimbusSanL-Reg";
+    src: url('../fonts/NimbusSanL-Reg\ 400.ttf');
+}
+
+@font-face {
+    font-family: "NimbusSanL-RegIta";
+    src: url('../fonts/NimbusSanL-RegIta\ 400.ttf');
+}
+
+.main {
+    width: 100%;
+
+
+}
+
+nav {
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+
+}
+
+nav .navleft {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section {
+    /* background-color: red; */
+    margin-top: 80px;
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    width: 190px;
+
+}
+
+.sustainablity-div {
+    width: 100%;
+    height: 280px;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sustainablity-div img {
+    /* position: absolute; */
+    /* top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 120%;
+    height: 120%;
+    /* object-fit: cover; */
+}
+
+.hero-center {
+    width: 300px;
+    font-family: "NimbusSanL-RegIta";
+
+}
+
+.hero-center-img {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+}
+
+.heading {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: -51px;
+    left: -16px;
+    text-transform: capitalize;
+    /* background: green; */
+}
+
+.hero-center img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.motive {
+    padding: 30px 30px;
+    margin-top: 20px
+}
+
+.motive-heading {
+    width: 550px;
+    margin: 0 45%;
+}
+
+.motive p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.motive p span {
+    display: inline-block;
+    width: 63px;
+    height: 29px;
+    /* background-color: red; */
+    margin: 0px 15px;
+    border-radius: 100px;
+
+}
+
+#one-emoji {
+    background: url('../images/bluegirl.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#two-emoji {
+    background: url('../images/shaljam.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#three-emoji {
+    background: url('../images/grass.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.pictures-section {
+    padding: 30px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.first-pic-box {
+    width: 250px;
+
+}
+
+.img-div {
+    width: 100%;
+    height: 300px;
+}
+
+.img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-box {
+    margin-top: 10px;
+}
+
+.text-box h3 {
+    margin-top: 10px;
+}
+
+.text-box p {
+    margin-top: 10px;
+
+}
+
+.sec-pic-box {
+    width: 400px;
+}
+
+.sec-pic-box .img-div {
+    width: 100%;
+    height: 450px;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-img {
+    width: 60%;
+    height: 500px;
+    background: greenyellow;
+}
+
+.b-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+}
+
+.b-text{
+    width: 40%;
+    padding: 10px;
+}
+
+.future-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(221, 212, 212);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.future-section video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.future-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.future-box button{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 9px;
+}
